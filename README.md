@@ -1,15 +1,27 @@
-# marketplace_flutter_mobile
+# Online Marketplace Platform Frontend Flutter Mobile
 
-A new Flutter project.
+## Description
 
-## Getting Started
+This is the frontend of a one-stop online marketplace site created with flutter.
 
-This project is a starting point for a Flutter application.
+## Technologies & Tools used in the front-end single page web application include:
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter v3.3.10
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation Instructions
+
+- Clone the project locally
+- Debug using VS Code
+
+## Configuring VSCode
+
+- Install the most recent version of VSCode
+
+## Project Wiki :
+- [General](https://dev.azure.com/rimazmohommed523/Marketplace/_wiki/wikis/Marketplace.wiki/22/Frontend-Flutter-Android-Mobile-Application)
+- [Architectural Decisions](https://dev.azure.com/rimazmohommed523/Marketplace/_wiki/wikis/Marketplace.wiki/34/Architectural-Decisions)
+- [Known Issues](https://dev.azure.com/rimazmohommed523/Marketplace/_wiki/wikis/Marketplace.wiki/33/Known-Issues)
+- [Installation Instructions](https://dev.azure.com/rimazmohommed523/Marketplace/_wiki/wikis/Marketplace.wiki/32/Installation-Instructions)
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
