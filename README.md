@@ -7,6 +7,7 @@ This is the frontend of a one-stop online marketplace site created with flutter.
 ## Technologies & Tools used in the front-end single page web application include:
 
 - Flutter v3.3.10
+- CI/CD using Azure DevOps
 
 ## Installation Instructions
 
