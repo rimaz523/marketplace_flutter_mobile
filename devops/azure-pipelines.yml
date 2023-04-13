@@ -12,6 +12,11 @@ stages:
     pool:
       vmImage: 'windows-latest'
     steps:
+    - task: JavaToolInstaller@0
+      inputs:
+        versionSpec: '11'
+        jdkArchitectureOption: 'x64'
+        jdkSourceOption: 'PreInstalled'
     - task: Hey24sheep.flutter.flutter-install.FlutterInstall@0
       inputs:
         channel: 'stable'
