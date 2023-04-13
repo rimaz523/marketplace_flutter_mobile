@@ -10,7 +10,7 @@ stages:
   - job: 'Android'
     displayName: 'Build Android'
     pool:
-      vmImage: 'macOS-latest'
+      vmImage: 'windows-latest'
     steps:
     - task: FlutterInstall@0
       inputs:
