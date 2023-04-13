@@ -3,9 +3,6 @@ trigger:
     include:
       - master
 
-variables:
-- group: MobileDeploymentVarGroup
-
 stages:
 - stage: 'Build'
   displayName: 'Build the Flutter App'
