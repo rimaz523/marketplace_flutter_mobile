@@ -12,13 +12,13 @@ stages:
     pool:
       vmImage: 'windows-latest'
     steps:
-    - task: aloisdeniel.flutter.flutter-install.FlutterInstall@0
+    - task: Hey24sheep.flutter.flutter-install.FlutterInstall@0
       inputs:
         channel: 'stable'
         version: 'custom'
         customVersion: '3.7.11'
 
-    - task: aloisdeniel.flutter.flutter-build.FlutterBuild@0
+    - task: Hey24sheep.flutter.flutter-build.FlutterBuild@0
       inputs:
         projectDirectory: '.'
 
