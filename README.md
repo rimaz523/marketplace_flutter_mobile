@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/rimazmohommed523/Marketplace/_apis/build/status%2Frimaz523.marketplace_flutter_mobile?branchName=master)](https://dev.azure.com/rimazmohommed523/Marketplace/_build/latest?definitionId=17&branchName=master)
+
 # Online Marketplace Platform Frontend Flutter Mobile
 
 ## Description
