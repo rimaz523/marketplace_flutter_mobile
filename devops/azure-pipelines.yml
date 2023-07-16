@@ -43,3 +43,24 @@ stages:
         contents: '**/*.apk'
         targetFolder: '$(build.artifactStagingDirectory)'
     - task: PublishBuildArtifacts@1
+
+- stage: 'Deploy'
+  displayName: 'Deploy the Android App'
+  dependsOn: Build
+  jobs:
+  - deployment: Deploy
+    pool:
+      vmImage: 'macOS-latest'
+    environment: Development
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - download: current
+            artifact: drop
+          - task: AppCenterDistribute@3
+            inputs:
+              serverEndpoint: 'marketagora-appcenter-service-conn'
+              appSlug: 'Mate.lk/MarketAgora'
+              appFile: '$(Pipeline.Workspace)/drop/build/app/outputs/apk/release/app-release.apk'
+              releaseNotesInput: 'Marketagora online marketplace'
