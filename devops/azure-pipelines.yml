@@ -51,6 +51,7 @@ stages:
   - deployment: Deploy
     pool:
       vmImage: 'macOS-latest'
+    environment: DEV
     strategy:
       runOnce:
         deploy:
