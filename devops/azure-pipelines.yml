@@ -47,6 +47,7 @@ stages:
 - stage: 'Deploy'
   displayName: 'Deploy the Android App'
   dependsOn: Build
+  condition: and (succeeded(), eq(variables['Build.SourceBranchName'], 'master'))
   jobs:
   - deployment: Deploy
     pool:
